@@ -3,12 +3,12 @@ with source as (
 ),
 
 clean as (
-    select
-        product_id,
-        name,
-        category,
-        cast(price as decimal(10,2)) as price
-    from source
+    select product_id
+          ,name
+          ,category
+          ,cast(price as decimal(10,2)) as price
+      from source
 )
 
-select * from clean
+select * 
+  from clean
