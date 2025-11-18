@@ -1,7 +1,6 @@
-CREATE TABLE IF NOT EXISTS bronze.tb_inventory (
+CREATE TABLE IF NOT EXISTS brz_tb_inventory (
     cod_product STRING,
     qty_in_stock STRING,
     warehouse STRING
 )
-USING DELTA
-LOCATION 'dbfs:/Volumes/Study/bronze/tb_inventory';
+USING DELTA;

@@ -1,4 +1,4 @@
-CREATE TABLE IF NOT EXISTS bronze.tb_customers (
+CREATE TABLE IF NOT EXISTS brz_tb_customers (
     cod_customer STRING,
     first_name STRING,
     last_name STRING,
@@ -9,5 +9,4 @@ CREATE TABLE IF NOT EXISTS bronze.tb_customers (
     country STRING,
     signup_date STRING
 )
-USING DELTA
-LOCATION 'dbfs:/Volumes/Study/bronze/tb_customers';
+USING DELTA;

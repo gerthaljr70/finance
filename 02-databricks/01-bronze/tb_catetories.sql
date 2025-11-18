@@ -1,6 +1,5 @@
-CREATE TABLE IF NOT EXISTS bronze.tb_categories (
+CREATE TABLE IF NOT EXISTS brz_tb_categories (
     cod_category STRING,
     category_name STRING
 )
-USING DELTA
-LOCATION 'dbfs:/Volumes/Study/bronze/tb_categories';
+USING DELTA;
