@@ -1,4 +1,4 @@
-# E-Commerce Analytics Project
+# Finance (Stock market) Analytics Project
 
 This repository contains a complete learning ecosystem covering:
 
